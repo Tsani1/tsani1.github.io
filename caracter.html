@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Wibu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="caracter.html">KARAKTER</a></li>
+                <li><a href="pengisi.html">PENGISI</a></li>
+                <li><a href="comment.html">KOMENTAR</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Karakter</h1>
+</section>
+
+<!------- courses ------>
+<section class="karakter">
+    <h1>Karakter Naruto</h1>
+
+    <div class="row">
+        <div class="karakter-col">
+            <h3>Semangat</h3>
+            <p>Naruto selalu semangat disaat apapun walaupun dia sedikit bodoh tetapi dia tetap semangat dan itulah salah satu kunci keberhasilannya</p>
+        </div>
+        <div class="karakter-col">
+            <h3>Sabar</h3>
+            <p>Naruto juga memiliki jiwa penyabar dia sangat sabar menghadapi cacian dan makian dari orang-orang ia membuat ujian itu menjadi penyemangat didalam hidupnya</p>
+        </div>
+        <div class="karakter-col">
+            <h3>Pantang Menyerah</h3>
+            <p>Naruto merupakan tokoh yang tidak pernah menyerah, walaupun ia gagal berkali-kali tetapi ia tetap mencoba lagi sampai berhasil</p>
+        </div>
+    </div>
+</section>
+
+</section>
+<!------- Footer ------>
+<section class="footer">
+	<p>Masih banyak lagi keseruan-keseruan yang disajikan di anime tersebut<br><br>Jangan lupa nonton serial anime naruto shipudden di televisi anda setiap 	hari</p>	
+</section>
+
+
+<!------- JavaScript for toogle Menu ------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

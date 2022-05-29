@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime wibu</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<section class="header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="caracter.html">KARAKTER</a></li>
+                <li><a href="pengisi.html">PENGISI</a></li>
+                <li><a href="comment.html">KOMENTAR</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Naruto Shipudden</h1>
+    </div>
+</section>
+
+<!------- Course ------>
+<section class="karakter">
+    <h1>NARUTO SHIPPUDEN</h1>
+    <p>Naruto Shipudden adalah sebuah serial manga karya Masasi Kishimoto yang diadaptasi menjadi serial anime.</p>
+	<p>Naruto Uzumaki merupakan merupakan tokoh utama di anime tersebut, dia merupakan ninja yang hiperaktif, periang dan ambisius, yang ingin menggapai cita-citanya sebagai seorang pemimpin desa/ Hokage di desa konohagakure</p>
+    <div class="row">
+	<h2>TOKOH LAIN
+        <div class="karakter-col">
+            <h4>Sasuke</h4>
+            <p>Sasuke Uchiha merupakan teman dan musuh naruto dikarenakan pada saat kecil bermusuhan dengan naruto dan sasuke memilih jalan kesesatan dan pada waktu remaja naruto berhasil membawa sasuke kejalan kebaikan lagi</p>
+        </div>
+        <div class="karakter-col">
+            <h4>Sakura</h4>
+            <p>Sakura Haruno merupakan teman naruto dan sasuke, pada waktu kecil naruto sangat mencintai sakura tapi tidak dengan sakura dia malah mencintai sasuke yang sama sekali tidak cinta kepadanya tetapi pada waktu besar ia menikah dengan sasuke</p>
+        </div>
+        <div class="karakter-col">
+            <h4>Kakashi</h4>
+            <p>Kakashi merupakan guru dari naruto sasuke dan sakura pada waktu kecil ia banyak mengajarkan jutsu-jutsu/ilmu-ilmu baru pada mereka, ia adalah salah satu ninja yang hebat di desa konohagakure</p>
+        </div>
+        <div class="karakter-col">
+            <h4>Hinata</h4>
+            <p>Hinata merupakan istri dari naruto pada saat besar nanti, Hinata memiliki sifat yang pemalu, bahkan dia sering pingsan jika melihat naruto dikarenakan ia sudah jatuh cinta pada naruto pada saat masih kecil</p>
+        </div>
+        <div class="karakter-col">
+            <h4>Jiraya</h4>
+            <p>Jiraya juga merupakan guru naruto dan banyak mengajarkan ilmu-ilmu pada naruto, setelah agak dewasa naruto berlatih pada jiraya dan bukan kakashi lagi</p>
+        </div>
+        <div class="karakter-col">
+            <h4>Minato</h4>
+            <p>Minato merupakan ayah dari naruto ia meninggal pada saat naruto masih bayi dikarenakan menyegel monster musang bererkor 9 yang kemudian diletakkan ditubuh anaknya yakni naruto</p>
+        </div>
+		<div class="karakter-col">
+		<h4>Kushina</h4>
+            <p>Kushina merupakan ibu dari naruto ia meninggal sama dengan minato yakni dikarenakan sama seperti ayahnya yakni menyegel monster musang bererkor 9 yang kemudian diletakkan ditubuh anaknya yakni naruto</p></h2>
+		</div>
+    </div>
+</section>
+
+
+<!------- Call To Action ------>
+<section class="cta">
+    <h1>Anime</h1>
+</section>
+
+<!------- Footer ------>
+<section class="footer">
+    <p>Masih banyak lagi keseruan-keseruan yang disajikan di anime tersebut<br><br>Jangan lupa nonton serial anime naruto shipudden di televisi anda setiap hari</p>
+</section>
+
+
+<!------- JavaScript for toogle Menu ------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

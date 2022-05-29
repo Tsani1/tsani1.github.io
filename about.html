@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Wibu</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="caracter.html">KARAKTER</a></li>
+                <li><a href="pengisi.html">PENGISI</a></li>
+                <li><a href="comment.html">KOMENTAR</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+<!------- about us content ------>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Alur Cerita</h1>
+            <p>Serial anime naruto merupakan anime yang cukup mendidik dimana kita di ajarkan supaya bisa mandiri, tidak mudah menyerah, pantang mundur dan terus semangat untuk mencapi apa yang kita cita-citakan sampai tercapai. <br> Di anime ini juga banyak adegan yang menguras air mata karena naruto merupakan anak sebatang kara dan dibenci oleh orang-orang didesanya karena memiliki monster rubah ber ekor sembilan didalam tubuhnya yang dapat membunuh siapapun tetapi naruto tetap sabar dan terus semangat menjalani hidupnya yang penuh hinaan.</p>
+            <a href="" class="hero-btn red-btn">Lihat</a>
+        </div>
+        <div class="about-col">
+            <img src="naruto2.jpg">
+        </div>
+    </div>
+</section>
+
+<!------- Footer ------>
+<section class="footer">
+    <p>Masih banyak lagi keseruan-keseruan yang disajikan di anime tersebut<br><br>Jangan lupa nonton serial anime naruto shipudden di televisi anda setiap hari</p>
+</section>
+
+
+<!------- JavaScript for toogle Menu ------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

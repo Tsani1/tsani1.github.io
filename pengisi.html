@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime wibu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="caracter.html">KARAKTER</a></li>
+                <li><a href="pengisi.html">PENGISI</a></li>
+                <li><a href="comment.html">KOMENTAR</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Pengisi</h1>
+</section>
+<!------- pengisi ------>
+<section class="pengisi-content">
+    <div class="row">
+        <div class="pengisi-left">
+            <img src="naruto1.jpg">
+            <div class="comment-box">
+                <h3>Keluarkan Komentar Anda</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Masukkan Nama">
+                    <input type="email" placeholder="Masukkan Email">
+                    <textarea rows="5">Komentar Anda</textarea>
+                    <button type="submit" class="hero-btn red-btn">Kirim komentar</button>
+                </form>
+            </div>
+        </div>
+        <div class="pengisi-right">
+            <h3>Pengisi suara</h3>
+            <div>
+                <span>Naruto</span>
+                <span>Junko Takeuchi</span>
+            </div>
+            <div>
+                <span>Sasuke</span>
+                <span>Noriaki Sugiyama</span>
+            </div>
+            <div>
+                <span>Sakura</span>
+                <span>Chie Nakamura</span>
+            </div>
+            <div>
+                <span>Kakashi</span>
+                <span>Kazuhiko Inoue</span>
+            </div>
+            <div>
+                <span>Hinata</span>
+                <span>Nana Mizuki</span>
+            </div>
+            <div>
+                <span>Jiraya</span>
+                <span>Hochu Otsuka</span>
+            </div>
+            <div>
+                <span>Minato</span>
+                <span>Toshiyuki Morikawa</span>
+            </div>
+            <div>
+                <span>Kushina</span>
+                <span>Emi Shihonara</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!------- Footer ------>
+<section class="footer">
+	<p>Masih banyak lagi keseruan-keseruan yang disajikan di anime tersebut<br><br>Jangan lupa nonton serial anime naruto shipudden di televisi anda setiap 	hari</p>	
+</section>
+
+<!------- JavaScript for toogle Menu ------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
